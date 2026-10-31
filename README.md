@@ -1,6 +1,6 @@
-# SlideForge
+# 冯子泉 · PPT 生成器
 
-SlideForge 是一个开源 Python 命令行工具和轻量级 Python 库：用 JSON 配置主题与页面内容，生成可在 PowerPoint、Keynote、LibreOffice 中继续编辑的 `.pptx` 文件。适合快速制作汇报、课程、方案、产品介绍、数据展示等演示文稿。
+冯子泉 · PPT 生成器是一个开源 Python 命令行工具和轻量级 Python 库：用 JSON 配置主题与页面内容，生成可在 PowerPoint、Keynote、LibreOffice 中继续编辑的 `.pptx` 文件。适合快速制作汇报、课程、方案、产品介绍、数据展示等演示文稿。Python 包名和命令行命令仍为 `slideforge`。
 
 ## 功能
 

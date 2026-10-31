@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "slideforge"
 version = "0.1.0"
-description = "Generate editable PowerPoint presentations from JSON or Python."
+description = "Generate editable PowerPoint presentations from JSON or Python — 冯子泉 PPT 工具."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "ahwedlu11" }]
+authors = [{ name = "冯子泉" }]
 dependencies = ["python-pptx>=0.6.23"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -20,8 +20,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ahwedlu11/slideforge"
-Repository = "https://github.com/ahwedlu11/slideforge"
+Homepage = "https://github.com/ahwedlu11/feng-ziquan"
+Repository = "https://github.com/ahwedlu11/feng-ziquan"
 
 [project.scripts]
 slideforge = "pptforge.cli:main"
