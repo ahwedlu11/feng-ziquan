@@ -1,0 +1,65 @@
+{
+  "title": "产品季度复盘",
+  "theme": {
+    "primary": "17365D",
+    "accent": "2F75B5",
+    "background": "FFFFFF",
+    "text": "263238",
+    "muted": "667085",
+    "font": "Microsoft YaHei"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "title": "产品季度复盘",
+      "subtitle": "从数据洞察到下一步行动",
+      "author": "产品团队 · 2026 Q3"
+    },
+    {
+      "type": "bullets",
+      "title": "本季度关键进展",
+      "items": [
+        "完成核心体验改版，缩短新用户上手路径",
+        "发布团队协作能力，提升多人使用效率",
+        "建立每周指标回顾机制，快速发现产品问题"
+      ]
+    },
+    {
+      "type": "stats",
+      "title": "关键指标",
+      "items": [
+        { "label": "月活用户", "value": "+28%" },
+        { "label": "任务完成率", "value": "86%" },
+        { "label": "用户满意度", "value": "4.7/5" }
+      ]
+    },
+    {
+      "type": "two_column",
+      "title": "问题与机会",
+      "left_title": "待改进",
+      "left_items": ["首次使用引导偏长", "部分帮助内容更新滞后"],
+      "right_title": "下一步机会",
+      "right_items": ["优化新手引导", "补齐自助帮助中心", "验证智能推荐场景"]
+    },
+    {
+      "type": "chart",
+      "title": "每月活跃用户趋势",
+      "chart_type": "column",
+      "categories": ["7 月", "8 月", "9 月"],
+      "series": [
+        { "name": "活跃用户（千）", "values": [42, 51, 63] }
+      ]
+    },
+    {
+      "type": "section",
+      "title": "下一季度计划",
+      "subtitle": "聚焦体验、留存与可持续增长"
+    },
+    {
+      "type": "quote",
+      "title": "团队原则",
+      "quote": "先解决真实问题，再讨论更复杂的方案。",
+      "author": "产品团队"
+    }
+  ]
+}

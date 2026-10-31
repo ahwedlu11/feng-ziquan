@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slideforge"
+version = "0.1.0"
+description = "Generate editable PowerPoint presentations from JSON or Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "SlideForge contributors" }]
+dependencies = ["python-pptx>=0.6.23"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+slideforge = "pptforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pptforge*"]
