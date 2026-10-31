@@ -9,7 +9,7 @@ description = "Generate editable PowerPoint presentations from JSON or Python."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "SlideForge contributors" }]
+authors = [{ name = "ahwedlu11" }]
 dependencies = ["python-pptx>=0.6.23"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -18,6 +18,10 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ahwedlu11/slideforge"
+Repository = "https://github.com/ahwedlu11/slideforge"
 
 [project.scripts]
 slideforge = "pptforge.cli:main"

@@ -108,7 +108,7 @@ python -m unittest discover -s tests
 
 ## 发布前检查
 
-建议在目标平台上试生成并打开 `examples/sample.json` 的输出文件；字体是否可用取决于查看者的操作系统。发布到 PyPI 前，请将 `pyproject.toml` 中作者信息更新为你的项目/作者信息，并补上仓库链接。
+建议在目标平台上试生成并打开 `examples/sample.json` 的输出文件；字体是否可用取决于查看者的操作系统。项目作者信息与 GitHub 仓库地址已配置在 `pyproject.toml` 中。
 
 ## License
 
